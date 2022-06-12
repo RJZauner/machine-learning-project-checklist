@@ -114,7 +114,7 @@ A collection of steps to help engineers structure machine learning projects.
     - Train models from different categories and compare performance
       - Which features affect the performance of the algorithm the most?
       - What errors are being made by which algorithm?
-    - Feature Selection & Engineering
+   - Feature Selection & Engineering
       - Using this feedback to select new or create new features
       - Repeat process and select top performing algorithms
 - Training
