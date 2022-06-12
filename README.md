@@ -13,13 +13,13 @@ A collection of notes to help engineers build machine learning projects.
     - Which areas of the current workflow could be improved upon?
     - What impact will these changes have for users?
   - What should the user experience be?
+
+- Engineering Considerations
+  - Defining the engineering problem
     - Automation vs. Augmentation
     - Precision vs. Recall
     - Impact of false predictions
     - Potential side-effects
-
-- Engineering Considerations
-  - Defining the engineering problem
     - Classification or regression task?
     - What related solutions can I use?
     - How will the solution be deployed?
