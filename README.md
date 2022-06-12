@@ -137,4 +137,6 @@ A collection of steps to help engineers structure machine learning projects.
   - Decide if the project can proceed or if you need to revisit a previous step
 
 ### Deployment
- -. 
+ - Coordinate efforts with software engineering
+ - Setup Monitoring to keep on top of model performance
+ - Use CI/CD pipelines to train your model on new data and automate deployment
