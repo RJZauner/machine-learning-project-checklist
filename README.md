@@ -117,7 +117,6 @@ A collection of steps to help engineers structure machine learning projects.
    - Feature Selection & Engineering
       - Using this feedback to select new or create new features
       - Repeat process and select top performing algorithms
-  - Document learnings
   - Fine-Tuning
     - Use Cross-Validation to tune your models
       - Random Search
@@ -125,9 +124,14 @@ A collection of steps to help engineers structure machine learning projects.
       - Bayesian Optimization
     - Ensemble Methods
     - Measure performance against the test dataset
-    - Document learnings 
-- Minimal-Viable-Model
-- Hyperparameter Tuning
-- Testing
+  - Get Feedback
+    - Let users use the feature to identify problems with your model
+    - Ensure that the pool of beta-testers is diverse and covers your user population
+    - Tools to identify bias
+      - What-if-tool
+      - Language Interpretability Tool
+    - What errors occurred during testing?
+    - How can we improve our training and testing based on this feedback?
+  - Document learnings
 
 - Deployment
