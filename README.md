@@ -132,6 +132,9 @@ A collection of steps to help engineers structure machine learning projects.
       - Language Interpretability Tool
     - What errors occurred during testing?
     - How can we improve our training and testing based on this feedback?
-  - Document learnings
+  - Document and present your findings
+    - Gradio is great for interacting with your model
+  - Decide if the project can proceed or if you need to revisit a previous step
 
-- Deployment
+### Deployment
+ -. 
