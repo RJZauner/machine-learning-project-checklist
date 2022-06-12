@@ -6,17 +6,18 @@ A collection of steps to help engineers structure machine learning projects.
 
 ### Project Kick-Off Phase
 
-- User Experience/Product Design Consideration
+- User Experience Considerations
   - Why is this a problem?
   - Have a look at existing workflows:
     - Which areas of the current workflow could be improved upon?
+    - What impact will these changes have for users?  
   - What should the user experience be?
     - Automation vs. Augmentation
     - Precision vs. Recall
     - Impact of false predictions
     - Potential side-effects
-- Engineering Considerations
 
+- Engineering Considerations
   - Defining the engineering problem
     - Classification or regression task?
     - What related solutions can I use?
@@ -25,7 +26,7 @@ A collection of steps to help engineers structure machine learning projects.
     - Are there any research papers available for this problem?
       - Blogs
       - Academic papers
-    - Supervised vs Unsupervised Learning
+    - Supervised vs. Unsupervised Learning
   - Data Considerations
     - Data Bias
       - What steps can we take to ensure our model's predictions are fair?
