@@ -1,6 +1,6 @@
 # Machine Learning Project Checklist
 
-A collection of steps to help engineers structure machine learning projects.
+A collection of notes to help engineers build machine learning projects.
 
 ## Contents
 
