@@ -7,10 +7,11 @@ A collection of notes to help engineers build machine learning projects.
 ### Project Kick-Off Phase
 
 - User Experience Considerations
+
   - Why is this a problem?
   - Have a look at existing workflows:
     - Which areas of the current workflow could be improved upon?
-    - What impact will these changes have for users?  
+    - What impact will these changes have for users?
   - What should the user experience be?
     - Automation vs. Augmentation
     - Precision vs. Recall
@@ -110,33 +111,36 @@ A collection of notes to help engineers build machine learning projects.
   - Automate your data pipeline
 
 ### Modeling
-  -  Baseline Models
-    - Train models from different categories and compare performance
-      - Which features affect the performance of the algorithm the most?
-      - What errors are being made by which algorithm?
-   - Feature Selection & Engineering
-      - Using this feedback to select new or create new features
-      - Repeat process and select top performing algorithms
-  - Fine-Tuning
-    - Use Cross-Validation to tune your models
-      - Random Search
-      - Grid Search 
-      - Bayesian Optimization
-    - Ensemble Methods
-    - Measure performance against the test dataset
-  - Get Feedback
-    - Let users use the feature to identify problems with your model
-    - Ensure that the pool of beta-testers is diverse and covers your user population
-    - Tools to identify bias
-      - What-if-tool
-      - Language Interpretability Tool
-    - What errors occurred during testing?
-    - How can we improve our training and testing based on this feedback?
-  - Document and present your findings
-    - Gradio is great for interacting with your model
-  - Decide if the project can proceed or if you need to revisit a previous step
+
+- Baseline Models
+- Train models from different categories and compare performance
+  - Which features affect the performance of the algorithm the most?
+  - What errors are being made by which algorithm?
+- Feature Selection & Engineering
+  - Using this feedback to select new or create new features
+  - Repeat process and select top performing algorithms
+- Fine-Tuning
+  - Use Cross-Validation to tune your models
+    - Random Search
+    - Grid Search
+    - Bayesian Optimization
+  - Ensemble Methods
+  - Measure performance against the test dataset
+- Get Feedback
+  - Let users use the feature to identify problems with your model
+  - Ensure that the pool of beta-testers is diverse and covers your user population
+  - Tools to identify bias
+    - What-if-tool
+    - Language Interpretability Tool
+  - What errors occurred during testing?
+  - How can we improve our training and testing based on this feedback?
+- Document and present your findings
+  - Gradio is great for interacting with your model
+- Decide if the project can proceed or if you need to revisit a previous step
 
 ### Deployment
- - Coordinate efforts with software engineering
- - Setup Monitoring to keep on top of model performance
- - Use CI/CD pipelines to train your model on new data and automate deployment
+
+- Coordinate efforts with software engineering
+- Setup Monitoring to keep on top of model performance
+  - What can I do to spot bias in my model's predictions?
+- Use CI/CD pipelines to train your model on new data and automate deployment
