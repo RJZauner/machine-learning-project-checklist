@@ -9,17 +9,17 @@ A collection of notes to help engineers build machine learning projects.
 - User Experience Considerations
 
   - Why is this a problem?
-  - Have a look at existing workflows:
+  - Have a look at existing workflows
     - Which areas of the current workflow could be improved upon?
     - What impact will these changes have for users?
   - What should the user experience be?
-
-- Engineering Considerations
-  - Defining the engineering problem
     - Automation vs. Augmentation
     - Precision vs. Recall
     - Impact of false predictions
     - Potential side-effects
+
+- Engineering Considerations
+  - Defining the engineering problem
     - Classification or regression task?
     - What related solutions can I use?
     - How will the solution be deployed?
@@ -56,7 +56,7 @@ A collection of notes to help engineers build machine learning projects.
     - How will we collect data?
     - How and who will label our data?
     - Do we need to collect more data?
-    - Can we use synthetic data?
+    - Can we use synthetic data generation techniques to supplement our current dataset?
 
 - Data Exploration Phase
 
@@ -72,12 +72,13 @@ A collection of notes to help engineers build machine learning projects.
       - Does it have outliers?
       - How are the values distributed?
       - Are certain values more frequently present than others?
-    - Visualise each feature to explore the dataset
+    - Visualise each feature to better understand the dataset
     - Analyse targer variable in supervised learning
       - Is the labelling consistent?
       - Are there missing labels?
     - Inspect the correlations between each feature
     - Document your learnings
+      - How would you explain the dataset to a 5-year-old?
     - Automate as much as you can
 
 ### Data Preparation Phase
@@ -140,7 +141,7 @@ A collection of notes to help engineers build machine learning projects.
 
 ### Deployment
 
-- Coordinate efforts with software engineering
+- Coordinate efforts within the product team
 - Setup Monitoring to keep on top of model performance
   - What can I do to spot bias in my model's predictions?
 - Use CI/CD pipelines to train your model on new data and automate deployment
